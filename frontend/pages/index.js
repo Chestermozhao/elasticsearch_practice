@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Head from 'next/head';
 import "../static/index.css";
 import TitlePage from "-!svg-react-loader!../images/title_page.svg";
 import axios from "axios";
@@ -50,23 +51,27 @@ export class Index extends Component {
     const {completeResult, barValue} = this.state;
     return (
         <React.Fragment>
-            <p className="title-center">Welcome to Chester's Elasticsearch search bar demonstration</p>
-            <div className="input-center">
-                <input type="text" className="input-style" value={barValue} onChange={this.handleChange} />
-                <button className="button">Search</button>
-            </div>
-            <div className="search-result-box">
-                {completeResult.map((wordItem, index)=>{
-                  return (
-                      <div key={index}>
-                        <p className="search-result-item" onClick={this.updateBarValue}>
-                          {wordItem._source.word}
-                        </p>
-                      </div>
-                    )
-                })}
-            </div>
-            <TitlePage className="center" />
+          <Head>
+            <title>Chester's PrefixSearch Deom</title>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          </Head>
+          <p className="title-center">Welcome to Chester's Elasticsearch search bar demonstration</p>
+          <div className="input-center">
+            <input type="text" className="input-style" value={barValue} onChange={this.handleChange} />
+            <button className="button">Search</button>
+          </div>
+          <div className="search-result-box">
+            {completeResult.map((wordItem, index)=>{
+              return (
+                <div key={index}>
+                  <p className="search-result-item" onClick={this.updateBarValue}>
+                    {wordItem._source.word}
+                  </p>
+                </div>
+              )
+            })}
+          </div>
+          <TitlePage className="center" />
         </React.Fragment>
     );
   }

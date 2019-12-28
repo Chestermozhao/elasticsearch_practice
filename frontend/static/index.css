@@ -1,0 +1,50 @@
+html * {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title-center {
+  text-align: center;
+  font-size: 2em;
+}
+
+.input-center {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 2.8rem;
+}
+
+.input-style {
+  border-radius: 10px;
+  font-size: 1.4em;
+  width: 20%;
+  height: 60%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+  font-size: 1.3rem;
+  margin-left: 0.6rem;
+  border-radius: 10px;
+  position: relative;
+  bottom: 2px;
+}
+
+.search-result-box {
+  position: absolute;
+  left: 38%;
+  top: 14%;
+  background-color: #fff;
+  width: 18.5%;
+  padding-left: 1rem;
+}
+
+.search-result-item:hover {
+  cursor: pointer;
+}

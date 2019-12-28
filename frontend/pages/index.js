@@ -27,6 +27,13 @@ export class Index extends Component {
     if (req_word) {
       axios.
         post("http://localhost:9200/wiki_prefix_search/_search/?size=5", {
+            /* importance is set for phrase or word(no space in word):
+               asc means word priority
+               desc means phrase priority
+            */
+            sort: [
+              {"importance" : "asc"}
+            ],
             query: {
               prefix: {
                 "word.keyword": req_word

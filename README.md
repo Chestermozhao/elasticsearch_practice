@@ -34,4 +34,4 @@ npm run dev
   - Elasticsearch 7.5: About Installation [Document](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)
 
 3. Demo.gif
-<img src="https://github.com/Chestermozhao/elasticsearch_practice/blob/master/demo.gif" width=60% />
+<img src="https://github.com/Chestermozhao/elasticsearch_practice/blob/master/demo.gif" width=100% />

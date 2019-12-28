@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Chester_es_practice"
+version = "0.1.0"
+description = ""
+authors = ["Chestermozhao <b02310043@ntu.edu.tw>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+elasticsearch = "^7.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

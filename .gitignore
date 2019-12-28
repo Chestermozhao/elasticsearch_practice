@@ -130,6 +130,17 @@ dmypy.json
 
 # customize dir
 demo_codes/
+delete_data.py
+insert_data.py
+read_data.py
+search_data.py
+update_data.py
+poetry.lock
+backend/libs/data/demo_data.json
+backend/libs/data/es_demo_en.sort
+backend/libs/data/shakespeare2.0.json
+backend/libs/data/shakespeare_6.0.json
+backend/libs/data/wiki_words.json
 
 # node
 .next/

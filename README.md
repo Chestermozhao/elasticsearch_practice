@@ -20,6 +20,7 @@ pre-commit install
 # Frontend
 cd frontend
 npm install
+# just for dev environment, plz using build at prod environment
 npm run dev
 ```
 

@@ -32,5 +32,5 @@ npm run dev
 
 2. Backend
   - Python3.6+
-  - Using Black for pre-commit
+  - pre-commit: black
   - Elasticsearch 7.5: About Installation [Document](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)

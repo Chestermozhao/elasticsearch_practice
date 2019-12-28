@@ -52,7 +52,7 @@ export class Index extends Component {
     return (
         <React.Fragment>
           <Head>
-            <title>Chester's PrefixSearch Deom</title>
+            <title>Chester's PrefixSearch Demo</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           </Head>
           <p className="title-center">Welcome to Chester's Elasticsearch search bar demonstration</p>

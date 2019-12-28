@@ -32,3 +32,6 @@ npm run dev
   - Python3.6+
   - Using Black for pre-commit
   - Elasticsearch 7.5: About Installation [Document](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)
+
+3. Demo.gif
+<img src="https://github.com/Chestermozhao/elasticsearch_practice/blob/master/demo.gif" width=200 height=360 />

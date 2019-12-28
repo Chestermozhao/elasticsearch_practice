@@ -1,5 +1,8 @@
 """
 This script implements transfering raw data to bulk data
+Author: Chestermo
+Email: b02310043@gmail.com
+Date: 2019-12
 """
 import os
 import json

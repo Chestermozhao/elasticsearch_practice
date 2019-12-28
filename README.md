@@ -5,6 +5,8 @@
 <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 </p>
 
+<img src="https://github.com/Chestermozhao/elasticsearch_practice/blob/master/demo.gif" width=100% />
+
 ```shell
 # Backend
 cd backend
@@ -32,6 +34,3 @@ npm run dev
   - Python3.6+
   - Using Black for pre-commit
   - Elasticsearch 7.5: About Installation [Document](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)
-
-3. Demo.gif
-<img src="https://github.com/Chestermozhao/elasticsearch_practice/blob/master/demo.gif" width=100% />
